@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/musa.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/testmonials.css">
+    <link rel="stylesheet" href="css/rotativo.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="shortcut icon" href="img/LogoMusadeVerao.png" type="image/x-icon">
+
+
+    <title>Musa do Verão</title>
+</head>
+<body>
+
+    <div class="caixa_car">
+        <h6 class="text_car">Produto Adicionado ao carrinho</h6>
+        <i class="fa-solid fa-circle-check"></i>
+    </div>
+
+    <header>
+        <nav id="navbar">
+            <img src="img/LogoMusadeVerao.png" id="nav_logo" alt=""> 
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicío</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Sobre Nós</a>
+                </li>
+            </ul>
+            <div class="bloco-car">
+                <button class="btn-default soma-car">
+                    <i class="fa-solid fa-cart-shopping"></i> <span class="soma">0</span>
+                </button>
+    
+                <button class="btn-default">
+                    Peça Aqui
+                </button>
+            </div>
+            <!-- <button class="btn-default soma-car">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+
+            <button class="btn-default">
+                Peça Aqui
+            </button> -->
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+                
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicío</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Sobre Nós</a>
+                </li>
+            </ul>
+
+            <button class="btn-default soma-car">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+
+            <button class="btn-default">
+                Peça Aqui
+            </button> 
+        </div>
+    </header>
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    Musa de Verão uma empresa especializada em criar doces deliciosos e personalizados para todos os momentos especiais da sua vida. 
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver Cardápio
+                    </a>
+
+                    <a href="tel: +55 (19)12345-6789" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (19) 12345-6789
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="img/post8.jpg" alt="">
+            </div>
+        </section>
+
+        <section> 
+            <div class="slider">
+
+                <div class="slides">
+
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="slide first">
+                        <img src="img/banner1.png" alt="Imagem 1"/>
+                    </div>
+                    <div class="slide">
+                        <img src="img/musinha pronta-01.jpg" alt="Imagem 2"/>
+                    </div>
+                    <div class="slide">
+                        <img src="img/Post6.png" alt="Imagem 3"/>
+                    </div>
+                    <div class="slide">
+                        <img src="img/bannerdeles2.png" alt="Imagem 4"/>
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+            </div>
+        
+        </section> 
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-sbtitle">Nossos Doces Especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/Tarde de verão.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Tarde de Verão 
+                    </h3>
+
+                    <span class="dish-description">
+                     Nesse calor ele e o queridinho, Feito com as futas mais refrescantes: maracujá, abacaxi, kiwi, limão e laranja;
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$6,00</h4>
+                        <button class="btn-default add-car">
+                            <i class="fa solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/Cítrico encanto.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Cítrico Encanto
+                    </h3>
+
+                    <span class="dish-description">
+                        Feito como melhor casal cítrico: Limão com laranja. O famoso azedinho que te deixa doce como mel!!!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$6,00</h4>
+                        <button class="btn-default add-car ">
+                            <i class="fa solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/sol.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Doce Sol
+                    </h3>
+
+                    <span class="dish-description">
+                        Com um sabor totalmente refrescante! Feito com frutas amarelas: banana, maracujá, abacaxi, limão siciliano. 
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$6,00</h4>
+                        <button class="btn-default add-car">
+                            <i class="fa solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/Céu vermelho.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Céu Vermelho
+                    </h3>
+
+                    <span class="dish-description">
+                        Feito com frutas vermelhas: morango, framboesa, melancia, cereja, amora. Experimente essa maravilha AGORA.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$6,00</h4>
+                        <button class="btn-default add-car">
+                            <i class="fa solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/caixa3d.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                     Verão Vermelho
+                    </h3>
+
+                    <span class="dish-description">
+                        Essa junção entre as frutas vermelhas e o refrescante, e uma maravilha, só tem mais delicoso comprando mais um!!!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$40,00</h4>
+                        <button class="btn-default add-car">
+                            <i class="fa solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/caixa3d.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Sol Cítrico
+                    </h3>
+
+                    <span class="dish-description">
+                        Essa aqui impressiona em todos os sentidos, misturando o cítrico com o doce das frutas amarelas fica uma delícia!!!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$40,00</h4>
+                        <button class="btn-default add-car">
+                            <i class="fa solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/caixa3d.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Encanto de Verão
+                    </h3>
+
+                    <span class="dish-description">
+                        Refrescante e um leve azedinho? Uma combinação que você encontra nessa caixa lotada de musas de verão!!!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$40,00</h4>
+                        <button class="btn-default add-car">
+                            <i class="fa solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/caixa3d.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Explosão de Verão
+                    </h3>
+
+                    <span class="dish-description">
+                        Nada melhor do que juntar todas essas maravilhas em uma caixa só, trazendo uma explosão de sabores indescritivel!!!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$40,00</h4>
+                        <button class="btn-default add-car">
+                            <i class="fa solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="img/Frenteembalagem.png" id="testimonials_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos 
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="img/neguinha.webp" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Pedroca
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "A Bala Baiana, com seu toque especial, apresenta uma versão com leve sabor alcoólico , que combina a doçura do limão e a leveza do álcool, trazendo uma experiência única e marcante. É uma escolha perfeita para quem aprecia um doce com personalidade e um toque de descontração."
+                            </p>
+                           
+
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="img/neguinho.webp" class="feedback-avatar" alt="">
+                        
+                        <div class="feedback-content">
+                            <p>
+                                Julia
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "A Bala Baiana é simplesmente irresistível! Seu sabor tropical único e refrescante conquista desde o primeiro momento, trazendo uma experiência leve e deliciosa. A textura é perfeita, e o equilíbrio entre o doce e o frescor é impecável. É o tipo de bala que não dá vontade de parar de comer. Um produto que realmente se destaca pela qualidade e toque especial."
+                            </p>
+                           
+
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://drive.google.com/drive/folders/1f0ayCh3cfqhwn9lFjjkbZYyMHQSDIHtU?usp=drive_link    " id="link-certo"> <button class="btn-default">
+                    IMPRENSA - Musa de Verão
+                </button></a>
+            </div>
+        </section>
+
+       
+    
+
+            <footer>
+                <div id="footer_content">
+                    <div id="footer_contacts">
+                        <img src="img/LogoMusadeVerao.png" alt="logo-sunsstyle" class="img_footer">
+                       <p></p>
+        
+                       <div id="footer_social_media">
+                            <a href="#" class="footer-link" id="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                             </a>
+                        </div>
+        
+                        <div id="footer_social_media">
+                                <a href="#" class="footer-link" id="facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                        </div>
+                            <div id="footer_social_media">
+                                <a href="#" class="footer-link" id="whatsapp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                             </div>       
+        
+                    
+                    </div>
+        
+                 <ul class="footer-list">
+                    <li>
+                        <h3>Produtos</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Céu Vermelho</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Doce Sol</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Explosão de Verão</a>
+                    </li>
+                 </ul> 
+                 
+                 <ul class="footer-list">
+                    <li>
+                        <h3>Promoções</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Quiz</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Desafio encontre o doce</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Docinho do Mês</a>
+                    </li>
+                 </ul>
+        
+                        <div id="footer-subscribe">
+                            <h3>Delicie-se com amigos</h3>
+        
+                            <p>     
+                               Convide amigos para saborear essa delícia com você, Copie o link abaixo.
+                            </p>
+        
+                            <div id="input_group">
+                               <p>https://chat.whatsapp.com/IPWy6uiC2339l8Fb0MFa3E</p>
+                                <button>
+                                    <i class="fa-solid fa-link"></i>
+                                    <a href="#"></a>
+                                </button>
+                            </div>
+                        </div>
+                </div>
+        
+                <div id="footer_copyright">
+                    Musa de verão   
+                </div>
+            </footer>
+    </main>
+
+    <script src="js/musa.js"></script>
+    <script src="js/rotativo.js"></script>
+</body>
+</html>
